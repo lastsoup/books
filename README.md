@@ -26,11 +26,11 @@ $ git config --global user.email "qingtang166@qq.com"
 先提交文件：$ git add .   
 查看状态：$ git status   
 确定提交：$ git commit -a -m '新增txt文件'   
-发布到github：$ git push/有分支：$ git push origin master
-更新到本地:git pull
-放弃本地所有修改，强制更新:
-git fetch --all  
-git reset --hard origin
+发布到github：$ git push/有分支：$ git push origin master   
+更新到本地:git pull   
+放弃本地所有修改，强制更新:   
+git fetch --all   
+git reset --hard origin   
 4、回退   
 回退命令：   
 $ git reset --hard newbranch^         回退到上个版本   
