@@ -1,8 +1,12 @@
 
 # github使用
-1、初始化   
-下载git工具   
-初始化配置   
+1、初始化   
+安装git   
+windows:下载git工具   
+mac:   
+安装HomeBrew:ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"   
+brew安装:brew install git   
+初始化配置   
 $ git config --global user.name "lastsoup"   
 $ git config --global user.email "qingtang166@qq.com"   
 新建文件夹存放仓库   
