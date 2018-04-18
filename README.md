@@ -1,5 +1,5 @@
 
-##github使用
+# github使用
 1、初始化   
 下载git工具   
 初始化配置   
@@ -33,7 +33,7 @@ $ git reset --hard commit_id     退到/进到 指定commit的sha码
 解决方案：进入项目文件夹下的 .git文件中（显示隐藏文件夹或rm .git/index.lock）删除index.lock文件即可   
 提示：fatal: unable to access 'https://github.com/lastsoup/books.git/': Empty reply from server   
 解决方案：重置本机git设置：$ git config --global credential.helper store   
-##电子书使用   
+# 电子书使用   
 发布到分支gh-pages 访问https://lastsoup.github.io/books/
-##在线markdown编辑器
-http://mahua.jser.me/
+# 在线markdown编辑器
+https://dillinger.io/
