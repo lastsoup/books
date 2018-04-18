@@ -25,8 +25,9 @@ $ git config --global user.email "qingtang166@qq.com"
 先提交文件：$ git add .   
 查看状态：$ git status   
 确定提交：$ git commit -a -m '新增txt文件'   
-发布到github：$ git push/有分支：$ git push origin master   
-4、回退   
+发布到github：$ git push/有分支：$ git push origin master  
+更新：git pull
+4、回退   
 回退命令：   
 $ git reset --hard newbranch^         回退到上个版本   
 $ git reset --hard newbranch~3        回退到前3次提交之前，以此类推，回退到n次提交之前   
