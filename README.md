@@ -4,7 +4,7 @@
 下载git工具   
 初始化配置   
 $ git config --global user.name "lastsoup"   
-$ git config --global user.email johndoe@example.com   
+$ git config --global user.email "qingtang166@qq.com"   
 新建文件夹存放仓库   
 初始化一个git库：$ git init   
 克隆仓库：$ git clone https://github.com/lastsoup/books.git   
