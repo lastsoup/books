@@ -13,7 +13,7 @@ $ git config --global user.email "qingtang166@qq.com"
 初始化一个git库：$ git init   
 克隆仓库：$ git clone https://github.com/lastsoup/books.git   
 克隆分支仓库：$ git clone -b newbranch https://github.com/lastsoup/books.git   
-关联仓库：git remote add origin https://github.com/Yanyf765/hr_sys.git 
+关联仓库：git remote add origin https://github.com/Yanyf765/hr_sys.git   
 2、分支操作   
 查看分支：$ git branch   
 新建分支：$ git branch newbranch   
