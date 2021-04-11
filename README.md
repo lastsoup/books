@@ -45,6 +45,8 @@ $ git reset --hard commit_id     退到/进到 指定commit的sha码
 提示：fatal: unable to access 'https://github.com/lastsoup/books.git/': Empty reply from server   
 解决方案：重置本机git设置：$ git config --global credential.helper store   
 .gitignore 规则没生效 要先git rm -r --cached .   
+Fisheye/Crucible服务器不能识别git的SSL证书，所以操作停止执行。
+git config --global http.sslVerify false
 6、删除历史提交   
 删除.git文件夹可能会导致git存储库中的问题。如果要删除所有提交历史记录，但将代码保持在当前状态，可以按照以下方式安全地执行此操作：   
 尝试 运行 git checkout --orphan latest_branch   
